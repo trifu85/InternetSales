@@ -1,0 +1,75 @@
+.root
+{
+    -fx-background-color: #373435;
+}
+.label
+{
+    -fx-text-fill: white;
+}
+.text-field
+{
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+    -fx-text-fill: white;
+}
+
+.text-area .content
+{
+    -fx-background-color: #373435;
+    -fx-border-color: #FFFFFF;
+ 
+    
+}
+.text-area{
+    
+       -fx-text-fill: white;
+}
+.choice-box 
+{
+   -fx-background-color: #373435;
+   -fx-text-fill: black;
+   -fx-border-color: #FFFFFF;
+   
+}
+.choice-box .context-menu{
+    
+    -fx-background-color: #373435;
+    -fx-border-color: #FFFFFF;
+}
+
+#newAddButton
+{
+    -fx-border-color: #FFFFFF;
+    -fx-background-color:transparent;
+    -fx-border-width:1.0;
+    -fx-text-fill:red;
+    -fx-font-veight:bold;
+}
+#newAddButton:hover
+{
+    -fx-border-color: #75606F;
+}
+
+.text-field:hover, .text-field:focused, .text-area:hover, .text-area:focused .choice-box:hover, .choice-box:focused
+{
+    -fx-border-color: #75606F;
+}
+#updateButton, #deleteButton 
+{
+    -fx-background-color: transparent;
+    -fx-border-color: #FFFFFF;
+    -fx-font-veight:bold;
+    -fx-text-fill:white;
+}
+
+
+#deleteButton:hover, #updateButton:hover
+{
+    -fx-border-color:#75606F;
+}
+
+#newAddButton:pressed, #updateButton:pressed, #deleteButton:pressed
+{
+    -fx-border-color: #75606F;
+    -fx-background-color:#75606F;
+}
